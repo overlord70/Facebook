@@ -7,7 +7,7 @@
  .then(res => res.json())
  .then(res => {
     span_2.innerHTML = res.name
-    p.innerHTML = JSON.stringify(res)
+    p.innerHTML = JSON.stringify(res,null,2)
    
  })
  span_1.innerHTML = id
