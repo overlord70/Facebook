@@ -3,26 +3,32 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 img{
     max-width: 100%;
 }
+
 .wrap{
     width: 1200px;
     margin: 20px auto;
 }
+
 h1{
     margin-bottom: 30px;
     text-align: center;
     font-size: 35px;
 }
+
 .tick{
     margin-left: -100px;
 }
+
 .grid{
     display: grid;
     grid-template-columns: repeat(3, 500px);
     row-gap: 20px;
 }
+
 .btn{
     border: 0;
     height: 30px;
@@ -34,6 +40,7 @@ h1{
         color: white;
     }
 }
+
 .btn_main{
     border: 0;
     margin-inline: 430px;
@@ -49,6 +56,7 @@ h1{
         color: white;
     }
 }
+
 .bg{
     padding: 30px 50px;
     width: 400px;
@@ -57,6 +65,7 @@ h1{
     border-radius: 10px;
     border: 1px solid #0071E3;
 }
+
 .btn_main_2{
     border: 0;
     margin-top: 70px;
@@ -72,6 +81,7 @@ h1{
         color: white;
     }
 }
+
 .grid_2{
     margin-inline: 300px;
     display: flex;;
